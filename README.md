@@ -21,9 +21,13 @@ Achieve 95% test accuracy in the first epoch with fewer than 25000 parameters
            Linear-12                   [-1, 10]             650
 ================================================================
 Total params: 11,275
+
 Trainable params: 11,275
+
 Non-trainable params: 0
+
 Train set accuracy: 84.08%
+
 Test set accuracy: 95.75%
 
 #### Training Logs
@@ -34,5 +38,7 @@ Test set: Average loss: 0.1380, Accuracy: 9575/10000 (95.75%)
 
 #### Training Details
 Optimizer: SGD with learning rate 0.02 and momentum 0.9
+
 Batch Size: 128 (if CUDA available) or 64
+
 Epochs: 1
